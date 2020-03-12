@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>119375921</title>
+		<style>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		</style>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" type="text/css" href="interestscss.css">
+		<title> Image Scroller </title> 
+				<style type="text/css">
+#container {
+  overflow: hidden;
+  width: 800px;
+  height: 230px;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-top:50px;
+}
+
+#imgs {
+  display: block;
+  padding: 0;
+  width: 200%;
+}
+
+#imgs li {
+  padding-right: 10px;
+  display: inline-block;
+ *display:inline;
+}
+
+#imgs img {
+  width: 160px;
+  height: 120px;
+}
+
+.title {
+  display: block;
+  width: 100%;
+  height: 38px;
+  line-height: 38px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  background: #ddd;
+}
+
+.rowing {
+	height: 110px;
+	width: 900px;
+	padding: 5px 16px;
+	margin: 0%;
+	position: absolute;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.5); 
+	color: white;
+	text-align: left;
+	left: 15%;
+	top: 70%;
+}
+
+
+.travel {
+		height: 110px;
+	width: 900px;
+	padding: 5px 16px;
+	margin: 0%;
+	position: absolute;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.5); 
+	color: white;
+	text-align: left;
+	left: 15%;
+	top: 120%;
+}
+</style>
+</head>
+	</head>
+
+	<body>
+		<ul>
+			<li><a href="Index.html">Home</a></li>
+			<li class="dropdown">
+				<a href="#" class="dropbtn">Curriculum Vitae</a>
+				<div class="dropdown-content">
+					<a href="pdetails.html">Personal Details</a>
+					<a href="education.html">Education</a>
+					<a href="work.html">Work Experience</a>
+				</div>
+			</li>
+			<li><a href="interests.html">Interests</a></li>
+			<li><a href="consultserv.html">Consulting Services</a></li>
+			<li><a href="ebusiness.html">E-business</a></li>			
+			</div>
+		</li>
+		</ul>
+		<div class="header">
+			<img src="logo.png" style="width:128px;height:128px;" align="left">
+			<h1><b><i>Interests</b></i><h1>
+			<hr></hr>
+		</div>
+		<div class="rowing">
+			<div>
+				<h2><u>Rowing</u></h2>
+				<blockquote>I took up rowing when I was 11 years old. I love rowing as it has given me a sense of achievement and confidence in what I do. I am currently the head coach and cox of my club, allowing me help bring up new young rowers as my trainers did for me.</blockquote>
+			</div>
+	</div>
+
+<div id="jquery-script-menu">
+<div class="jquery-script-center">
+<div class="jquery-script-clear"></div>
+</div>
+</div>
+<div id="container"> 
+  <ul id="imgs">
+    <li><img src="u18.jpg" alt="" /></li>
+    <li><img src="u18row.jpg" alt="" /></li>
+	 <li><img src="baltimore.jpg" alt="" /></li>
+    <li><img src="u18turn.jpg" alt="" /></li>
+	 <li><img src="Turn.jpg" alt="" /></li>
+    <li><img src="seniormixed.jpg" alt="" /></li>
+  </ul>
+  </div>
+<div id="controler"> </div>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script> 
+<script type="text/javascript" src="ImageScroll.js"></script> 
+<script type="text/javascript">
+
+  $('#imgs').imageScroll({
+    orientation:"left",
+    speed:600,
+    interval:1000,
+    hoverPause:true,
+    callback:function(){
+      var ordinal;
+      <!-- console.log(ordinal); -->
+      $(this).next("span").text();
+    }
+  });
+
+  </script><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<div id="jquery-script-menu">
+<div class="jquery-script-center">
+<div class="jquery-script-clear"></div>
+</div>
+</div>
+<div id="container"> 
+  <ul id="imgs">
+    <li><img src="plane.jpg" alt="" /></li>
+    <li><img src="gaisce.jpg" alt="" /></li>
+	 <li><img src="maltaview.jpg" alt="" /></li>
+    <li><img src="garda.jpg" alt="" /></li>
+	 <li><img src="towerbridge.jpg" alt="" /></li>
+    <li><img src="vennice.jpg" alt="" /></li>
+	<li><img src="underground.jpg" alt="" /></li>
+  </ul>
+  </div>
+<div id="controler"> </div>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script> 
+<script type="text/javascript" src="ImageScroll.js"></script> 
+<script type="text/javascript">
+
+  $('#imgs').imageScroll({
+    orientation:"left",
+    speed:600,
+    interval:1000,
+    hoverPause:true,
+    callback:function(){
+      var ordinal;
+      <!-- console.log(ordinal); -->
+      $(this).next("span").text();
+    }
+  });
+
+  </script><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	<div class="travel">
+		<h2><u>Travel</u></h2>
+		<blockquote>I love to travel. Some of the places you see in the slideshow above are recent places that I have travelled to. I love to travel as it gives me a chance to see the world and experience different cultures.</blockquote>
+	</div>
+	</body>
+</html>
